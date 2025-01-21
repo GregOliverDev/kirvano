@@ -1,0 +1,110 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: var(--color-back, #f9f9f9);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.imgHome {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.h1Title {
+  font-size: 2rem;
+  color: #1c1d22;
+  margin: 1rem 0;
+}
+
+.divMaps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.divMaps:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.iconMaps {
+ /* Garante que a imagem ocupe a mesma proporção */
+  max-width: 250px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.participateButton {
+  background-color: #5bf067;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.participateButton:hover {
+  background-color: #88f791;
+}
+
+.linkTitle {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .divMaps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dde2ce;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .linkTitle {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .divbt {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
