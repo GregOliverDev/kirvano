@@ -25,6 +25,11 @@ const App: React.FC = () => {
       title: "E-book Dicas Nutrição",
       url: "https://pay.kirvano.com/17a68d60-05c2-4c83-bb10-abe341fc495f",
     },
+    {
+      imagem: "/assets/img4.jpg",
+      title: "+50 Sobremesas Incríveis com Apenas 3 Ingredientes",
+      url: "https://pay.kirvano.com/92f4aec1-df88-46d8-869b-ffbc620f6d67?aff=8bd0bed5-932a-4f4a-afe3-a98c22a1f1b4",
+    },
   ]);
 
   return (
