@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Nutrição é Saúde',
-  description: 'Links sobre Saúde',
+  title: 'AI UWU',
+  description: 'Links packs pics',
 }
 
 export default function RootLayout({
